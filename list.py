@@ -1,6 +1,6 @@
-#!/usr/bin/python
+# /usr/bin/python
 
-# Do not remove
+#*Do not remove
 GOOGLE_LOGIN = GOOGLE_PASSWORD = AUTH_TOKEN = None
 
 import sys
@@ -46,3 +46,4 @@ else:
     for c in doc.child:
         print_result_line(c)
 
+ 
