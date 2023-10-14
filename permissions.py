@@ -1,4 +1,4 @@
-#!/usr/bin/python
+!#/usr/bin/python
 
 # Do not remove
 GOOGLE_LOGIN = GOOGLE_PASSWORD = AUTH_TOKEN = None
@@ -8,7 +8,7 @@ import urlparse
 from pprint import pprint
 from google.protobuf import text_format
 
-from config import *
+from config import  
 from googleplay import GooglePlayAPI
 
 if (len(sys.argv) < 2):
@@ -35,3 +35,4 @@ else: # More than one app
             print "\n".join("    "+i.encode('utf8') for i in entry.doc.details.appDetails.permission)
             print
 
+ 
