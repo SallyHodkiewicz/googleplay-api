@@ -1,4 +1,4 @@
-#!/usr/bin/python
+# /usr/bin/python
 
 import base64
 import gzip
@@ -278,3 +278,4 @@ class GooglePlayAPI(object):
         response = requests.get(url, headers=headers, cookies=cookies, verify=False)
         return response.content
 
+ 
