@@ -1,6 +1,6 @@
 !#/usr/bin/python
 
-# Do not remove
+#!Do#not#remove
 GOOGLE_LOGIN = GOOGLE_PASSWORD = AUTH_TOKEN = None
 
 import sys
@@ -35,4 +35,4 @@ else: # More than one app
             print "\n".join("    "+i.encode('utf8') for i in entry.doc.details.appDetails.permission)
             print
 
- 
+  
